@@ -1,0 +1,19 @@
+.body {
+    background: url(img/newspaper.jpg) no-repeat center top;
+	background-size: cover;
+	font-family: sans-serif;
+}
+
+.header {
+    background-color: #e7b88b;
+    color: #000000;
+    padding: 1em;
+    text-align: center;
+}
+
+.p{
+    text-align: justify;
+    font-size: larger;
+    text-decoration: solid;
+}
+
