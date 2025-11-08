@@ -1,0 +1,65 @@
+/* ==== Estilos del menú personalizado ==== */
+.custom-navbar {
+  background: white;
+  font-family: sans-serif;
+  border-bottom: 3px solid #ffba60;
+}
+
+.custom-navbar .navbar-brand {
+  color: black !important;
+  font-weight: bold;
+  font-size: 1.3rem;
+  letter-spacing: 1px;
+}
+
+.custom-navbar .nav-link {
+  color: black !important;
+  margin: 0 8px;
+  transition: all 0.3s ease;
+  font-weight: 500;
+}
+
+.custom-navbar .nav-link:hover {
+  color: #ffb184 !important;
+  transform: translateY(-2px);
+}
+
+.custom-navbar .dropdown-menu {
+  background-color: white;
+  border: none;
+  border-radius: 6px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.custom-navbar .dropdown-item {
+  color: black;
+  font-size: 0.95rem;
+  padding: 10px 16px;
+  transition: background-color 0.2s ease;
+}
+
+.custom-navbar .dropdown-item:hover {
+  background-color: #eccea6;
+  color: black;
+  border-radius: 4px;
+}
+
+.navbar-toggler {
+  border-color: #4fc3f7;
+}
+
+.navbar-toggler-icon {
+  filter: invert(80%);
+}
+
+/* Responsive mejoras */
+@media (max-width: 991px) {
+  .custom-navbar .nav-link {
+    text-align: center;
+    margin: 6px 0;
+  }
+
+  .custom-navbar .dropdown-menu {
+    text-align: center;
+  }
+}
