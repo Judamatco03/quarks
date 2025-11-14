@@ -58,6 +58,10 @@
     flex: 1;
 }
 
+.texto-combinado2{
+    flex: 10;
+}
+
 .subtitulo{
     font-weight: bold;
     font-style: italic;
