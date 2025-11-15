@@ -41,8 +41,8 @@
 
 .combinado3 > div {
   flex: 1 1 calc(25% - 20px); /* 4 columnas ajustadas con espacio */
-  background-color: #f8f8f8; /* Fondo suave para distinguirlos */
-  border: 1px solid #ddd;
+  background-color: #f8f8f800; /* Fondo suave para distinguirlos */
+  border: 1px solid #dddddd00;
   border-radius: 8px;
   padding: 15px;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
@@ -52,6 +52,11 @@
 
 .combinado3 > div:hover {
   transform: translateY(-4px); /* Pequeño efecto al pasar el mouse */
+}
+
+.card{
+    background-color: transparent !important;
+    border: none !important;
 }
 
 .texto-combinado{
